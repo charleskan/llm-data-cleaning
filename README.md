@@ -46,7 +46,7 @@ Run:
 ```bash
 python webform-indicator.py
 ```
-- Default scan root is `www.towngas.com` (change `html_directory` in the script if needed).
+- Before running, open `webform-indicator.py` and set `html_directory` to your local HTML root (e.g., `input_sources/my_site`).
 
 ## Data Layout
 - `input_sources/<your_site>/`: raw downloaded pages (you provide).

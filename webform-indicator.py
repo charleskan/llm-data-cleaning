@@ -25,7 +25,8 @@ webform_indicators = {
 results = []
 
 # 掃描目錄及所有子目錄中的 HTML 文件
-html_directory = "www.towngas.com"
+# 請修改為你的本地 HTML 根目錄，例如 "input_sources/my_site"
+html_directory = "input_sources/my_site"
 
 # 先計算要處理的文件總數，用於顯示進度
 total_files = 0
