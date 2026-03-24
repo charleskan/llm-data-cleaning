@@ -1,6 +1,6 @@
-# Towngas HTML Cleaning & WebForm Analysis
+# HTML Cleaning & WebForm Analysis
 
-Scripts to clean already-downloaded Towngas website pages and analyze ASP.NET WebForm coupling. There is no built‑in scraper; place your own HTML files under `input_sources/` before running.
+Scripts to clean already-downloaded website pages and analyze ASP.NET WebForm coupling. There is no built‑in scraper; place your own HTML files under `input_sources/` before running.
 
 ## Prerequisites
 - Python 3.9+
