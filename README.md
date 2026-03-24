@@ -19,10 +19,10 @@ Scripts to clean already-downloaded Towngas website pages and analyze ASP.NET We
 ## HTML Cleaning (`html_cleaner.py`)
 Batch-clean HTML with an LLM following rules in `custom_prompt.txt`.
 
-Example:
+Example (replace with your own input folder):
 ```bash
 python html_cleaner.py \
-  --input-dir input_sources/www.towngas.com \
+  --input-dir input_sources/your_site \
   --output-dir output_sources/clean_output \
   --file-pattern "*.html" \
   --parallel 10 \
@@ -49,7 +49,7 @@ python webform-indicator.py
 - Default scan root is `www.towngas.com` (change `html_directory` in the script if needed).
 
 ## Data Layout
-- `input_sources/www.towngas.com/`: raw downloaded pages (you provide).
+- `input_sources/<your_site>/`: raw downloaded pages (you provide).
 - `output_sources/`: cleaned outputs and samples.
 - `custom_prompt.txt`: cleaning rules/template.
 - `html_cleaning.log`: cleaning run logs.
